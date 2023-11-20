@@ -61,23 +61,23 @@ jobs:
       uses: actions/upload-artifact@v3.1.3
       with:
         name: RunAsTIx64.exe
-        path: ${{env.GITHUB_WORKSPACE}}\build\Release\x64\bin\RunAsTI.exe
+        path: D:\a\RunAsTI\RunAsTI\build\Release\x64\bin\RunAsTI.exe
           
     - name: Upload x86 exe
       uses: actions/upload-artifact@v3.1.3
       with:
         name: RunAsTIx32.exe
-        path: ${{env.GITHUB_WORKSPACE}}\build\Release\win32\bin\RunAsTI.exe
+        path: D:\a\RunAsTI\RunAsTI\build\Release\Win32\bin\RunAsTI.exe
           
     - name: Upload x64 exe
       uses: actions/upload-artifact@v3.1.3
       with:
         name: RunAsTIarm.exe
-        path: ${{env.GITHUB_WORKSPACE}}\build\Release\arm\bin\RunAsTI.exe
+        path: D:\a\RunAsTI\RunAsTI\build\Release\ARN\bin\RunAsTI.exe
           
     - name: Upload x64 exe
       uses: actions/upload-artifact@v3.1.3
       with:
         name: RunAsTIa64.exe
-        path: ${{env.GITHUB_WORKSPACE}}\build\Release\arm64\bin\RunAsTI.exe
+        path: D:\a\RunAsTI\RunAsTI\build\Release\ARM64\bin\RunAsTI.exe
           
